@@ -7,7 +7,7 @@ description-meta: "Academic homepage of Hao Zhou"
 author-meta: "Hao Zhou"
 
 website:
-  title: "Hao Zhou | Academic Homepage"
+  title: "Hao Zhou"
   image: "https://github.com/hao23zh/hao23zh.github.io/files/images/placeholder1.JPG"
   description: "Academic homepage of Hao Zhou"
  
@@ -58,8 +58,8 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Hao Zhou](https://github.com/hao23zh) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: "[Hao Zhou] &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template)"
     # right:  
     #   - icon: github
     #     href: https://github.com/drganghe/quarto-academic-website-template

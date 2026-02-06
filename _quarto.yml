@@ -21,13 +21,13 @@ website:
         menu:
           - text: News
             href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
+          # - text: Events
+          #   href: posts.qmd#category=event      
           - text: Contact
             href: contact.qmd             
       - text: Research
         menu:
-          - text: List of Publications
+          - text: Publications
             href: publications.qmd
           - text: Selected Papers
             href: posts.qmd#category=paper
@@ -58,8 +58,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Hao Zhou] &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template)"
+    left: "Hao Zhou &copy; <script>document.write(new Date().getFullYear())</script>; Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template)"
     # right:  
     #   - icon: github
     #     href: https://github.com/drganghe/quarto-academic-website-template

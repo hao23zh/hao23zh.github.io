@@ -7,8 +7,8 @@ description-meta: "Academic homepage of Hao Zhou"
 author-meta: "Hao Zhou"
 
 website:
-  title: "Hao Zhou"
-  image: "https://github.com/hao23zh/hao23zh.github.io/files/images/placeholder1.JPG"
+  title: "Hao Zhou | Mathematics"
+  image: "images/placeholder1.jpg"
   description: "Academic homepage of Hao Zhou"
  
   navbar:
@@ -58,7 +58,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "Hao Zhou &copy; <script>document.write(new Date().getFullYear())</script>. Built on <a href='https://github.com/drganghe/quarto-academic-website-template'>Quarto Academic Website Template</a>"
+    center: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou · Powered by Quarto · Hosted on GitHub Pages"
     # right:  
     #   - icon: github
     #     href: https://github.com/drganghe/quarto-academic-website-template

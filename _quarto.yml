@@ -44,7 +44,7 @@ website:
 
     right: 
       - text: CV
-        href: files/nsf-biosketch.pdf
+        href: files/cv_haozhou.pdf
       # - icon: github
       #   href: https://github.com/hao23zh/hao23zh.github.io
       #   target: _blank
@@ -58,8 +58,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou"
-    right: "Powered by Quarto"
+    center: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou | Powered by Quarto"
     # center: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou · Powered by Quarto · Hosted on GitHub Pages"
     # right:  
     #   - icon: github

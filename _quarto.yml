@@ -58,7 +58,9 @@ website:
   page-navigation: true
   
   page-footer: 
-    center: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou · Powered by Quarto · Hosted on GitHub Pages"
+    left: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou"
+    right: "Powered by Quarto"
+    # center: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou · Powered by Quarto · Hosted on GitHub Pages"
     # right:  
     #   - icon: github
     #     href: https://github.com/drganghe/quarto-academic-website-template

@@ -1,4 +1,18 @@
 /* css styles */
-.footer-items {
-    white-space: nowrap;
+/* 强制脚标容器不换行并居中 */
+.nav-footer {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: center !important;
+  align-items: center;
+  width: 100%;
+}
+
+/* 针对脚标中的各个部分（左、中、右） */
+.nav-footer-left, 
+.nav-footer-center, 
+.nav-footer-right {
+  white-space: nowrap !important; /* 核心：强制文字不换行 */
+  flex-shrink: 0 !important;      /* 防止被压缩 */
+  margin: 0 10px;                 /* 增加间距防止挤在一起 */
 }

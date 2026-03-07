@@ -1,18 +1,64 @@
 /* css styles */
-/* 强制脚标容器不换行并居中 */
-.nav-footer {
+/* 1. 移除照片下方链接的“按钮感”，使其像普通学术链接 */
+.column i.bi {
+  margin-right: 8px;
+  color: #0b59a7; /* 统一图标颜色 */
+}
+
+.column a {
+  text-decoration: none;
+  color: #0b59a7;
+  font-size: 0.95em;
+}
+
+.column a:hover {
+  text-decoration: underline;
+}
+
+/* 强制脚标内容不换行 */
+.nav-footer-center {
+  white-space: nowrap !important;
   display: flex !important;
-  flex-wrap: nowrap !important;
   justify-content: center !important;
-  align-items: center;
   width: 100%;
 }
 
-/* 针对脚标中的各个部分（左、中、右） */
-.nav-footer-left, 
-.nav-footer-center, 
-.nav-footer-right {
-  white-space: nowrap !important; /* 核心：强制文字不换行 */
-  flex-shrink: 0 !important;      /* 防止被压缩 */
-  margin: 0 10px;                 /* 增加间距防止挤在一起 */
+.nav-footer-left, .nav-footer-right {
+  display: none !important; 
+}
+
+
+/* 3. 首页大标题间距调整 */
+h1.title {
+  margin-bottom: 1.5rem;
+}
+
+
+/* 1. 让 Listing 的条目更紧凑 */
+.quarto-post {
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  border-bottom: 1px solid #eee;
+}
+
+/* 2. 移除 Listing 默认的标题链接颜色，使其更像学术引用 */
+.listing-title {
+  font-weight: 600;
+  color: #333 !important;
+  font-size: 1.1rem;
+}
+
+/* 3. 仿制按钮样式：为 DOI 链接添加一个微型标签感 */
+.listing-categories .listing-category {
+  background-color: #f8f9fa;
+  color: #003366;
+  border: 1px solid #dee2e6;
+  font-size: 0.7em;
+  text-transform: none; /* 保持原样，不强制大写 */
+}
+
+/* 4. 搜索框和排序栏的样式微调 */
+.quarto-listing-filters {
+  margin-bottom: 2rem;
+  font-size: 0.9em;
 }

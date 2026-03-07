@@ -7,7 +7,7 @@ description-meta: "Academic homepage of Hao Zhou"
 author-meta: "Hao Zhou"
 
 website:
-  title: "Hao Zhou | Mathematics"
+  title: "Homepage of Hao Zhou"
   image: "images/placeholder1.jpg"
   description: "Academic homepage of Hao Zhou"
  
@@ -31,8 +31,8 @@ website:
             href: publications.qmd
           - text: Selected Papers
             href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
+      #    - text: Grants
+      #      href: projects.qmd                                
       # - text: Teaching # Comment the Teaching part out to remove the Teaching page
       #   href: teaching.qmd
       # - text: Outreach
@@ -42,9 +42,9 @@ website:
       # - text: Group   # Comment the Group part out to remove the Group page
       #   href: people.qmd
 
-    right: 
-      - text: CV
-        href: files/cv_haozhou.pdf
+    #right: 
+    #  - text: CV
+    #    href: files/cv_haozhou.pdf
       # - icon: github
       #   href: https://github.com/hao23zh/hao23zh.github.io
       #   target: _blank
@@ -58,7 +58,8 @@ website:
   page-navigation: true
   
   page-footer: 
-    center: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou | Powered by Quarto"
+    center: "© <script>document.write(new Date().getFullYear())</script>  Hao Zhou · Powered by Quarto"
+    # center: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou | Powered by Quarto"
     # center: "© <script>document.write(new Date().getFullYear())</script> Hao Zhou · Powered by Quarto · Hosted on GitHub Pages"
     # right:  
     #   - icon: github
@@ -99,6 +100,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    anchor-sections: false
     toc: true
     footnotes-hover: true
     code-copy: true

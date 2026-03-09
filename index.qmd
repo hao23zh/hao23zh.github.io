@@ -7,6 +7,8 @@ toc: false
 
 ::: {.column width="60%"}
 
+##
+
 I am a PhD student at the [School of Mathematical Sciences](http://english.math.pku.edu.cn/), Peking University, advised by [Prof. Shuonan Wu](https://www.math.pku.edu.cn/teachers/snwu/).
 
 My research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds.
@@ -17,7 +19,7 @@ My research focuses on numerical methods for partial differential equations (PDE
 :::
 
 ::: {.column width="35%"}
-![](files/images/placeholder1.jpg){width="100%" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"}
+![](files/images/hz.jpg){width="100%" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"}
 
 <div style="margin-top: 20px; text-align: left; line-height: 2;">
 <i class="bi bi-envelope"></i> [Email](mailto:zhouhao23@pku.edu.cn)  
@@ -28,9 +30,20 @@ My research focuses on numerical methods for partial differential equations (PDE
 
 :::
 
+<!--
 ---
+**Research Interests**
+- Numerical methods for partial differential equations
+- Finite element methods  
+  <span style="color:#777;">(nonconforming methods, DG, HDG)</span>
+- Structure-preserving discretizations  
+  <span style="color:#777;">(FEEC)</span>
+- Geometric PDEs  
+  <span style="color:#777;">(surface PDEs, PDEs on manifolds)</span>
+- Continuum mechanics  
+  <span style="color:#777;">(elasticity, viscoelasticity, large deformation)</span>
+-->
 
 ## Education
-
-* Peking University, **Ph.D.** in Mathematics, 2023 – Present
-* Peking University, **B.S.** in Mathematics, 2019 – 2023
+* Ph.D. in Mathematics, Peking University, 2023 – Present
+* B.S. in Mathematics, Peking University, 2019 – 2023

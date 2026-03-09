@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
     "listing": "/projects.html",
     "items": []
   },
@@ -8,15 +12,14 @@
     "items": []
   },
   {
+    "listing": "/news.html",
+    "items": []
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/event-title/index.html",
-      "/posts/news-title/index.html",
-      "/posts/paper-title/index.html"
+      "/posts/news-title/index.html"
     ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": []
   }
 ]

@@ -7,9 +7,9 @@ description-meta: "Academic homepage of Hao Zhou"
 author-meta: "Hao Zhou"
 
 website:
-  title: "Homepage of Hao Zhou"
-  image: "images/placeholder1.jpg"
+  title: "Hao Zhou's Homepage"
   description: "Academic homepage of Hao Zhou"
+  favicon: favicon.png
  
   navbar:
     background: light  # You can change the background color here
@@ -20,7 +20,7 @@ website:
       - text: About
         menu:
           - text: News
-            href: posts.qmd#category=news
+            href: news.qmd
           # - text: Events
           #   href: posts.qmd#category=event      
           - text: Contact
@@ -29,8 +29,8 @@ website:
         menu:
           - text: Publications
             href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
+          - text: Talks
+            href: talks.qmd
       #    - text: Grants
       #      href: projects.qmd                                
       # - text: Teaching # Comment the Teaching part out to remove the Teaching page

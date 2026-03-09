@@ -4,21 +4,13 @@ description-meta: "Reach out to me with questions and comments"
 title-block-banner: false
 ---
 
-<center>
+**Address**  
+School of Mathematical Sciences, Peking University  
+Room 308, Building 21  
+Beijing 100871, China  
 
-**Quarto Academic**
-
-School
-
-College
-
-University
-
-Address: 
-
-Phone: 
-
-E-mail: 
+**Email**  
+zhouhao23[a]pku.edu.cn
 
 
-</center>
+

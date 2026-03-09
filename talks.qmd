@@ -1,0 +1,8 @@
+---
+toc: false
+---
+
+## Materials
+* [A stabilized nonconforming FEM for the surface biharmonic problem](publications/talks/sNZT2025.pdf) （2025）
+
+## Talks

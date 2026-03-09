@@ -1,14 +1,22 @@
 ---
 title: "Publications"
-listing:
-  contents: papers.yml
-  type: default
-  categories: true        # 开启右侧主题分类（Geometric/Fractional）
-  sort: "year desc"       # 默认按年份降序
-  sort-ui: [year, title]  # 允许用户点击按钮按年份或标题排序
-  filter-ui: true         # 开启搜索框
-  fields: [year, title, author, journal] # 显示的字段
-  field-display-names:
-    year: "Year"
-    journal: "Publication"
+listing: 
+  sort: "date desc"
+  date-format: "YYYY"
+  type: table
+  page-size: 100
+  categories: true
+  sort-ui: [date]      # 仅允许时间排序
+  filter-ui: true
+  feed: true
+  template: paper_table.ejs 
+  fields: [date, title, journal, author]
+  contents: 
+      - publications/paper.yml 
+#      categories: [] 
+
+#page-layout: full
+draft-mode: unlinked
+page-navigation: false
+title-block-banner: false
 ---

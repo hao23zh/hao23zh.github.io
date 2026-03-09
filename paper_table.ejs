@@ -1,0 +1,16 @@
+<table class="quarto-listing-table table">
+  <tbody class="list">
+    <% for (const item of items) { %>
+    <tr <%= metadataAttrs(item) %>>
+      <td class="listing-date"><%= item.date %></td>
+      
+      <td class="listing-title-journal">
+        <strong><%= item.title %></strong>
+        <span class="listing-author"><%= item.author %></span>
+        <span class="journal-name"><em><%= item.journal %></em></span>
+        <a href="<%- item.doi %>" class="doi-link">[DOI]</a>
+      </td>
+    </tr>
+    <% } %>
+  </tbody>
+</table>

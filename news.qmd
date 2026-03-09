@@ -1,0 +1,13 @@
+---
+title: "News"
+listing:
+  contents: posts/post-links.yml
+  type: table
+  sort: "date desc"
+  categories: true       
+  fields: [date, title]  
+  field-links: [title]
+  sort-ui: false         
+  filter-ui: true    
+  date-format: "MMM YYYY"     
+---

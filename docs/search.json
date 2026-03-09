@@ -28,6 +28,13 @@
     "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
   },
   {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n2025\n\n\nLocal discontinuous Galerkin method for the integral fractional Laplacian Rubing Han, Shuonan Wu, and Hou Zhou arXiv preprint [DOI]\n\n\n\n\n2025\n\n\nA Stabilized Nonconforming Finite Element Method for the Surface Biharmonic Problem Shuonan Wu, and Hou Zhou SIAM Journal on Numerical Analysis [DOI]\n\n\n\n\n2023\n\n\nA monotone discretization for the fractional obstacle problem Rubing Han, Shuonan Wu, and Hou Zhou Fractal and Fractional [DOI]\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -35,39 +42,18 @@
     "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
-  },
-  {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Links",
-    "text": "Links\nPublished paper"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hao Zhou",
+    "objectID": "posts/news-title/index.html",
+    "href": "posts/news-title/index.html",
+    "title": "News item",
     "section": "",
-    "text": "I am a PhD student at the School of Mathematical Sciences, Peking University, advised by Prof. Shuonan Wu.\nMy research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds.\n\n\n\n\n\n Email (zhouhao23 at pku dot edu dot cn)\n Google Scholar\n Curriculum Vitae"
+    "text": "About the news"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Hao Zhou",
-    "section": "Education",
-    "text": "Education\n\nPeking University, Ph.D. in Mathematics, 2023 – Present\nPeking University, B.S. in Mathematics, 2019 – 2023"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "posts/news-title/index.html#summary",
+    "href": "posts/news-title/index.html#summary",
+    "title": "News item",
     "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
+    "text": "About the news"
   },
   {
     "objectID": "people.html",
@@ -91,31 +77,87 @@
     "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hao Zhou",
     "section": "",
-    "text": "About the news"
+    "text": "I am a PhD student at the School of Mathematical Sciences, Peking University, advised by Prof. Shuonan Wu.\nMy research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds.\n\n\n\n\n\n\n Email (zhouhao23 at pku dot edu dot cn)\n Google Scholar\n Curriculum Vitae"
   },
   {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Hao Zhou",
     "section": "",
-    "text": "About the news"
+    "text": "I am a PhD student at the School of Mathematical Sciences, Peking University, advised by Prof. Shuonan Wu.\nMy research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Hao Zhou",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Mathematics, Peking University, 2023 – Present\nB.S. in Mathematics, Peking University, 2019 – 2023"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Address\nSchool of Mathematical Sciences, Peking University\nRoom 308, Building 21\nBeijing 100871, China\nEmail\nzhouhao23[a]pku.edu.cn"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Date\n\n\n\nTitle\n\n\n\n\n\n\n\n\nApr 2026\n\n\nWill attend the Programme on Differential Complexes at the Erwin Schrödinger International Institute (ESI), University of Vienna, April 20–June 5, 2026.\n\n\n\n\n\n\nJan 2026\n\n\nAttended the Workshop on Finite Element Tensor Calculus at the Tsinghua Sanya International Mathematics Forum (TSIMF), January 12–16, 2026.\n\n\n\n\n\n\nJan 2026\n\n\nAttended the Conference on Structure-Preserving Finite Element Methods at the Institute of Computational Mathematics and Scientific/Engineering Computing (ICMSEC), Chinese Academy of Sciences, Beijing, January 8–10, 2026.\n\n\n\n\n\n\nDec 2025\n\n\nSelected for the CAST Young Science and Technology Talent Cultivation Project.\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
-    "title": "What’s New & Updated",
+    "title": "News",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nWill attend the Programme on Differential Complexes at the Erwin Schrödinger International Institute (ESI), University of Vienna, April 20–June 5, 2026.\n\n\n\nUpcoming\n\n\n\n\n\n\n\n\nApr 1, 2026\n\n\n\n\n\n\n\n\n\n\nAttended the Workshop on Finite Element Tensor Calculus at the Tsinghua Sanya International Mathematics Forum (TSIMF), January 12–16, 2026.\n\n\n\nEvent\n\n\n\n\n\n\n\n\nJan 1, 2026\n\n\n\n\n\n\n\n\n\n\nAttended the Conference on Structure-Preserving Finite Element Methods at the Institute of Computational Mathematics and Scientific/Engineering Computing (ICMSEC), Chinese Academy of Sciences, Beijing, January 8–10, 2026.\n\n\n\nEvent\n\n\n\n\n\n\n\n\nJan 1, 2026\n\n\n\n\n\n\n\n\n\n\nSelected for the CAST Young Science and Technology Talent Cultivation Project.\n\n\n\nAward\n\n\n\n\n\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "publications/papers/stabilized2025.html#abstract",
+    "href": "publications/papers/stabilized2025.html#abstract",
+    "title": "A Stabilized Nonconforming Finite Element Method for the Surface Biharmonic Problem",
+    "section": "Abstract",
+    "text": "Abstract"
+  },
+  {
+    "objectID": "publications/papers/stabilized2025.html#links",
+    "href": "publications/papers/stabilized2025.html#links",
+    "title": "A Stabilized Nonconforming Finite Element Method for the Surface Biharmonic Problem",
+    "section": "Links",
+    "text": "Links\npaper\nslide"
+  },
+  {
+    "objectID": "publications/papers/stabilized2025.html#pictures",
+    "href": "publications/papers/stabilized2025.html#pictures",
+    "title": "A Stabilized Nonconforming Finite Element Method for the Surface Biharmonic Problem",
+    "section": "Pictures",
+    "text": "Pictures"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Hao Zhou's Homepage",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Year\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "A stabilized nonconforming FEM for the surface biharmonic problem （2025）"
+  },
+  {
+    "objectID": "talks.html#materials",
+    "href": "talks.html#materials",
+    "title": "Hao Zhou's Homepage",
+    "section": "",
+    "text": "A stabilized nonconforming FEM for the surface biharmonic problem （2025）"
+  },
+  {
+    "objectID": "talks.html#talks",
+    "href": "talks.html#talks",
+    "title": "Hao Zhou's Homepage",
+    "section": "Talks",
+    "text": "Talks"
   }
 ]

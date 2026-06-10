@@ -2,7 +2,16 @@
 toc: false
 ---
 
-## Materials
-* [A stabilized nonconforming FEM for the surface biharmonic problem](publications/talks/sNZT2025.pdf) （2025）
-
 ## Talks
+
+:::: {.talk-numbering}
+
+1. CSIAM Young Forum, Chengdu, China, Jun/2026. (upcoming)
+
+::: {.talk-subtitle}
+Informal talks
+:::
+
+1. *Functional Analysis of the Curved BGG Sequence*, ESI, University of Vienna, Austria, May/2026.
+
+::::

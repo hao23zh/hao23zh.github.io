@@ -20,3 +20,12 @@ draft-mode: unlinked
 page-navigation: false
 title-block-banner: false
 ---
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const sortSelect = document.querySelector("#listing-listing-sort");
+  if (!sortSelect) return;
+  const defaultOption = sortSelect.querySelector('option[value="index"]');
+  if (defaultOption) defaultOption.remove();
+});
+</script>

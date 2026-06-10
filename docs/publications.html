@@ -19,7 +19,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -77,12 +77,12 @@ ul.task-list li input[type="checkbox"] {
     const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
-      return; 
+      return;
     }
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-journal','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
+
       searchColumns: ["listing-title","listing-author","listing-date","listing-journal","listing-categories","listing-doi"],
     };
 
@@ -100,26 +100,6 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-
-<!-- 
-Load Academicons v1: https://jpswalsh.github.io/academicons/
--->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-
-<!---
-The following code are needed to show dimension citation and altmetrics.
-https://api.altmetric.com/embeds.html
-https://badge.dimensions.ai/
---->
-
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -179,30 +159,34 @@ window.Quarto = {
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">
         <li>
     <a class="dropdown-item" href="./news.html">
  <span class="dropdown-text">News</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./contact.html">
  <span class="dropdown-text">Contact</span></a>
-  </li>  
+  </li>
     </ul>
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">
         <li>
     <a class="dropdown-item" href="./publications.html">
  <span class="dropdown-text">Publications</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./talks.html">
  <span class="dropdown-text">Talks</span></a>
-  </li>  
+  </li>
+        <li>
+    <a class="dropdown-item" href="./materials.html">
+ <span class="dropdown-text">Materials</span></a>
+  </li>
     </ul>
   </li>
 </ul>
@@ -222,7 +206,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RnJhY3Rpb25hbCUyMFBERXM=">Fractional PDEs <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2VvbWV0cmljJTIwUERFcw==">Geometric PDEs <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -236,16 +220,24 @@ window.Quarto = {
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const sortSelect = document.querySelector("#listing-listing-sort");
+  if (!sortSelect) return;
+  const defaultOption = sortSelect.querySelector('option[value="index"]');
+  if (defaultOption) defaultOption.remove();
+});
+</script>
 
 
 
@@ -277,7 +269,7 @@ window.Quarto = {
 2025
 </td>
 <td class="listing-title-journal">
-<strong>Local discontinuous Galerkin method for the integral fractional Laplacian</strong> <span class="listing-author">Rubing Han, Shuonan Wu, and Hou Zhou</span> <span class="journal-name"><em>arXiv preprint</em></span> <a href="https://doi.org/10.48550/arXiv.2512.12200" class="doi-link">[DOI]</a>
+<strong>Local discontinuous Galerkin method for the integral fractional Laplacian</strong> <span class="listing-author">Rubing Han, Shuonan Wu, and Hao Zhou</span> <span class="journal-name"><em>arXiv preprint</em></span> <a href="https://doi.org/10.48550/arXiv.2512.12200" class="doi-link">[DOI]</a>
 </td>
 </tr>
 <tr data-index="1" data-categories="R2VvbWV0cmljJTIwUERFcw==" data-listing-date-sort="1735660800000">
@@ -285,7 +277,7 @@ window.Quarto = {
 2025
 </td>
 <td class="listing-title-journal">
-<strong>A stabilized nonconforming finite element method for the surface biharmonic problem</strong> <span class="listing-author">Shuonan Wu, and Hou Zhou</span> <span class="journal-name"><em>SIAM Journal on Numerical Analysis</em></span> <a href="https://doi.org/10.1137/24M1707936" class="doi-link">[DOI]</a>
+<strong>A stabilized nonconforming finite element method for the surface biharmonic problem</strong> <span class="listing-author">Shuonan Wu, and Hao Zhou</span> <span class="journal-name"><em>SIAM Journal on Numerical Analysis</em></span> <a href="https://doi.org/10.1137/24M1707936" class="doi-link">[DOI]</a>
 </td>
 </tr>
 <tr data-index="2" data-categories="RnJhY3Rpb25hbCUyMFBERXM=" data-listing-date-sort="1672502400000">
@@ -293,7 +285,7 @@ window.Quarto = {
 2023
 </td>
 <td class="listing-title-journal">
-<strong>A monotone discretization for the fractional obstacle problem</strong> <span class="listing-author">Rubing Han, Shuonan Wu, and Hou Zhou</span> <span class="journal-name"><em>Fractal and Fractional</em></span> <a href="https://doi.org/10.3390/fractalfract7080634" class="doi-link">[DOI]</a>
+<strong>A monotone discretization for the fractional obstacle problem</strong> <span class="listing-author">Rubing Han, Shuonan Wu, and Hao Zhou</span> <span class="journal-name"><em>Fractal and Fractional</em></span> <a href="https://doi.org/10.3390/fractalfract7080634" class="doi-link">[DOI]</a>
 </td>
 </tr>
 </tbody>
@@ -304,7 +296,7 @@ window.Quarto = {
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -324,11 +316,11 @@ window.Quarto = {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -366,7 +358,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/hao23zh\.github\.io\/custom");
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/hao23zh\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -410,7 +402,7 @@ window.Quarto = {
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -485,7 +477,7 @@ window.Quarto = {
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -513,7 +505,7 @@ window.Quarto = {
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -537,7 +529,7 @@ window.Quarto = {
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -577,7 +569,7 @@ window.Quarto = {
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -703,11 +695,9 @@ window.Quarto = {
   <div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
-    </div>   
+    </div>
     <div class="nav-footer-center">
-©
-<script>document.write(new Date().getFullYear())</script>
-<p>Hao Zhou · Powered by Quarto</p>
+<p><span class="footer-text">© 2026&nbsp;Hao Zhou · Powered by Quarto</span></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

@@ -24,6 +24,19 @@ h2, .h2 {
   width: 100%;
 }
 
+.footer,
+.nav-footer {
+  border-top: none !important;
+}
+
+.nav-footer-center p {
+  margin: 0;
+}
+
+.footer-text {
+  white-space: nowrap;
+}
+
 .nav-footer-left, .nav-footer-right {
   display: none !important; 
 }
@@ -31,6 +44,7 @@ h2, .h2 {
 /* 3. 首页大标题间距调整 */
 h1.title {
   margin-bottom: 1.5rem;
+  white-space: pre-wrap;
 }
 
 /* --- 1. 全局 Listing 表格一致性设定 --- */
@@ -102,6 +116,42 @@ h1.title {
   line-height: 1.4;
 }
 
+/* Talks page */
+.talk-numbering {
+  counter-reset: talk-item;
+}
+
+.talk-numbering ol {
+  list-style: none;
+  margin-bottom: 0.75rem;
+  padding-left: 2rem;
+}
+
+.talk-numbering li {
+  counter-increment: talk-item;
+  line-height: 1.45;
+  margin: 0.35rem 0;
+  position: relative;
+}
+
+.talk-numbering li::before {
+  color: #000;
+  content: counter(talk-item) ".";
+  left: -2rem;
+  position: absolute;
+}
+
+.talk-subtitle {
+  color: #777;
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin: 1rem 0 0.35rem;
+}
+
+.talk-subtitle p {
+  margin: 0;
+}
+
 /* 分类标签标题样式 */
 .quarto-listing-category-title {
   border-bottom: none !important;
@@ -113,4 +163,77 @@ h1.title {
 /* 搜索框间距 */
 .quarto-listing-filter {
   margin-bottom: 1.5rem;
+}
+
+/* Notes list */
+.notes-table {
+  font-size: 0.88rem;
+}
+
+.notes-table td {
+  padding: 0.65rem 0 !important;
+}
+
+.note-main {
+  line-height: 1.35;
+}
+
+.note-main p {
+  margin: 0;
+}
+
+.note-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.note-kind {
+  color: #555;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.note-title {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.note-title:hover {
+  color: #0b59a7;
+  text-decoration: underline;
+}
+
+.note-description {
+  color: #555;
+  display: block;
+  margin-top: 0.15rem;
+}
+
+.note-topic {
+  color: #777;
+  display: block;
+  font-size: 0.78rem;
+  margin-top: 0.1rem;
+}
+
+.note-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+}
+
+.note-category {
+  border: 1px solid #d7e3f2;
+  border-radius: 999px;
+  color: #315f8f;
+  font-size: 0.72rem;
+  line-height: 1.2;
+  padding: 0.08rem 0.45rem;
+  white-space: nowrap;
 }

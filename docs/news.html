@@ -19,7 +19,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -77,12 +77,12 @@ ul.task-list li input[type="checkbox"] {
     const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
-      return; 
+      return;
     }
 
     const options = {
       valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
+
       searchColumns: ["listing-date","listing-title","listing-categories"],
     };
 
@@ -100,26 +100,6 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-
-<!-- 
-Load Academicons v1: https://jpswalsh.github.io/academicons/
--->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-
-<!---
-The following code are needed to show dimension citation and altmetrics.
-https://api.altmetric.com/embeds.html
-https://badge.dimensions.ai/
---->
-
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -179,30 +159,34 @@ window.Quarto = {
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">
         <li>
     <a class="dropdown-item" href="./news.html">
  <span class="dropdown-text">News</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./contact.html">
  <span class="dropdown-text">Contact</span></a>
-  </li>  
+  </li>
     </ul>
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">
         <li>
     <a class="dropdown-item" href="./publications.html">
  <span class="dropdown-text">Publications</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./talks.html">
  <span class="dropdown-text">Talks</span></a>
-  </li>  
+  </li>
+        <li>
+    <a class="dropdown-item" href="./materials.html">
+ <span class="dropdown-text">Materials</span></a>
+  </li>
     </ul>
   </li>
 </ul>
@@ -222,8 +206,8 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QXdhcmQ=">Award <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXZlbnQ=">Event <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VXBjb21pbmc=">Upcoming <span class="quarto-category-count">(1)</span></div></div></div>
+
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QXdhcmQ=">Award <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RXZlbnQ=">Event <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VXBjb21pbmc=">Upcoming <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -236,11 +220,11 @@ window.Quarto = {
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
@@ -273,17 +257,37 @@ Title
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="VXBjb21pbmc=" data-listing-date-sort="1774972800000" data-listing-title-sort="Will attend the [Programme on Differential Complexes](https://www.esi.ac.at/events/e585/) at the Erwin Schrödinger International Institute (ESI), University of Vienna, April 20–June 5, 2026.">
+<tr data-index="0" data-categories="VXBjb21pbmc=" data-listing-date-sort="1782403200000" data-listing-title-sort="Will attend the [China Society for Industrial and Applied Mathematics (CSIAM) Young Forum](https://www.csiam.org.cn/1005/202606/2773.html), Chengdu, June 26–28, 2026.">
 <td>
-<span class="listing-date">Apr 2026</span>
+<span class="listing-date">Jun 2026</span>
 </td>
 <td>
-<span class="listing-title">Will attend the <a href="https://www.esi.ac.at/events/e585/">Programme on Differential Complexes</a> at the Erwin Schrödinger International Institute (ESI), University of Vienna, April 20–June 5, 2026.</span>
+<span class="listing-title">Will attend the <a href="https://www.csiam.org.cn/1005/202606/2773.html">China Society for Industrial and Applied Mathematics (CSIAM) Young Forum</a>, Chengdu, June 26–28, 2026.</span>
 </td>
 
 </tr>
 
-<tr data-index="1" data-categories="RXZlbnQ=" data-listing-date-sort="1767196800000" data-listing-title-sort="Attended the [Workshop on Finite Element Tensor Calculus](https://tsimf.tsinghua.edu.cn/info/1235/1207.htm) at the Tsinghua Sanya International Mathematics Forum (TSIMF), January 12–16, 2026.">
+<tr data-index="1" data-categories="QXdhcmQ=" data-listing-date-sort="1780329600000" data-listing-title-sort="Received the Peking University President Scholarship.">
+<td>
+<span class="listing-date">Jun 2026</span>
+</td>
+<td>
+<span class="listing-title">Received the Peking University President Scholarship.</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="RXZlbnQ=" data-listing-date-sort="1774972800000" data-listing-title-sort="Attended the [Programme on Differential Complexes](https://www.esi.ac.at/events/e585/) at the Erwin Schrödinger International Institute (ESI), University of Vienna, April 20–June 5, 2026.">
+<td>
+<span class="listing-date">Apr 2026</span>
+</td>
+<td>
+<span class="listing-title">Attended the <a href="https://www.esi.ac.at/events/e585/">Programme on Differential Complexes</a> at the Erwin Schrödinger International Institute (ESI), University of Vienna, April 20–June 5, 2026.</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="RXZlbnQ=" data-listing-date-sort="1767196800000" data-listing-title-sort="Attended the [Workshop on Finite Element Tensor Calculus](https://tsimf.tsinghua.edu.cn/info/1235/1207.htm) at the Tsinghua Sanya International Mathematics Forum (TSIMF), January 12–16, 2026.">
 <td>
 <span class="listing-date">Jan 2026</span>
 </td>
@@ -293,7 +297,7 @@ Title
 
 </tr>
 
-<tr data-index="2" data-categories="RXZlbnQ=" data-listing-date-sort="1767196800000" data-listing-title-sort="Attended the [Conference on Structure-Preserving Finite Element Methods](https://lsec.cc.ac.cn/~icspfem26/Index.html) at the Institute of Computational Mathematics and Scientific/Engineering Computing (ICMSEC), Chinese Academy of Sciences, Beijing, January 8–10, 2026.">
+<tr data-index="4" data-categories="RXZlbnQ=" data-listing-date-sort="1767196800000" data-listing-title-sort="Attended the [Conference on Structure-Preserving Finite Element Methods](https://lsec.cc.ac.cn/~icspfem26/Index.html) at the Institute of Computational Mathematics and Scientific/Engineering Computing (ICMSEC), Chinese Academy of Sciences, Beijing, January 8–10, 2026.">
 <td>
 <span class="listing-date">Jan 2026</span>
 </td>
@@ -303,7 +307,7 @@ Title
 
 </tr>
 
-<tr data-index="3" data-categories="QXdhcmQ=" data-listing-date-sort="1764518400000" data-listing-title-sort="Selected for the [CAST Young Science and Technology Talent Cultivation Project](https://kecaihui-tm-zz.cast.org.cn/specialPage/web?type=qtgc).">
+<tr data-index="5" data-categories="QXdhcmQ=" data-listing-date-sort="1764518400000" data-listing-title-sort="Selected for the [CAST Young Science and Technology Talent Cultivation Project](https://kecaihui-tm-zz.cast.org.cn/specialPage/web?type=qtgc).">
 <td>
 <span class="listing-date">Dec 2025</span>
 </td>
@@ -321,7 +325,7 @@ Title
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -341,11 +345,11 @@ Title
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -383,7 +387,7 @@ Title
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/hao23zh\.github\.io\/custom");
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/hao23zh\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -427,7 +431,7 @@ Title
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -502,7 +506,7 @@ Title
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -530,7 +534,7 @@ Title
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -554,7 +558,7 @@ Title
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -594,7 +598,7 @@ Title
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -720,11 +724,9 @@ Title
   <div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
-    </div>   
+    </div>
     <div class="nav-footer-center">
-©
-<script>document.write(new Date().getFullYear())</script>
-<p>Hao Zhou · Powered by Quarto</p>
+<p><span class="footer-text">© 2026&nbsp;Hao Zhou · Powered by Quarto</span></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

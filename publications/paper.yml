@@ -1,20 +1,19 @@
 - title: "A stabilized nonconforming finite element method for the surface biharmonic problem"
-  author: "Shuonan Wu, and Hou Zhou"
+  author: "Shuonan Wu, and Hao Zhou"
   date: "2025-01"
   journal: "SIAM Journal on Numerical Analysis"
-  # path: stabilized2025.qmd  # 有页面，点击跳转
   categories: [Geometric PDEs]
   doi: "https://doi.org/10.1137/24M1707936"
 
 - title: "A monotone discretization for the fractional obstacle problem"
-  author: "Rubing Han, Shuonan Wu, and Hou Zhou"
+  author: "Rubing Han, Shuonan Wu, and Hao Zhou"
   date: "2023-01"
   journal: "Fractal and Fractional"
   categories: [Fractional PDEs]
   doi: "https://doi.org/10.3390/fractalfract7080634"
 
 - title: "Local discontinuous Galerkin method for the integral fractional Laplacian"
-  author: "Rubing Han, Shuonan Wu, and Hou Zhou"
+  author: "Rubing Han, Shuonan Wu, and Hao Zhou"
   date: "2025-11"
   journal: "arXiv preprint"
   categories: [Fractional PDEs]

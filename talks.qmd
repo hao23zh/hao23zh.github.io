@@ -6,11 +6,15 @@ toc: false
 
 :::: {.talk-numbering}
 
-1. CSIAM Young Forum, Chengdu, China, Jun/2026. (upcoming)
+1. CSIAM Young Forum, Chengdu, China, Jun/2026.
+
+::::
 
 ::: {.talk-subtitle}
 Informal talks
 :::
+
+:::: {.talk-numbering}
 
 1. *Functional Analysis of the Curved BGG Sequence*, ESI, University of Vienna, Austria, May/2026.
 

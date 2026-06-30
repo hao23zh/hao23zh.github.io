@@ -19,7 +19,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -77,12 +77,12 @@ ul.task-list li input[type="checkbox"] {
     const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
-      return;
+      return; 
     }
 
     const options = {
       valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-
+      
       searchColumns: ["listing-date","listing-title","listing-categories"],
     };
 
@@ -159,34 +159,34 @@ window.Quarto = {
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
     <a class="dropdown-item" href="./news.html">
  <span class="dropdown-text">News</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./contact.html">
  <span class="dropdown-text">Contact</span></a>
-  </li>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
     <a class="dropdown-item" href="./publications.html">
  <span class="dropdown-text">Publications</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./talks.html">
  <span class="dropdown-text">Talks</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./materials.html">
  <span class="dropdown-text">Materials</span></a>
-  </li>
+  </li>  
     </ul>
   </li>
 </ul>
@@ -206,8 +206,8 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QXdhcmQ=">Award <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RXZlbnQ=">Event <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VXBjb21pbmc=">Upcoming <span class="quarto-category-count">(1)</span></div></div></div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QXdhcmQ=">Award <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RXZlbnQ=">Event <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -220,11 +220,11 @@ window.Quarto = {
 
 <div class="quarto-title-meta">
 
-
-
-
+    
+  
+    
   </div>
-
+  
 
 
 </header>
@@ -257,12 +257,12 @@ Title
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="VXBjb21pbmc=" data-listing-date-sort="1782403200000" data-listing-title-sort="Will attend the [China Society for Industrial and Applied Mathematics (CSIAM) Young Forum](https://www.csiam.org.cn/1005/202606/2773.html), Chengdu, June 26–28, 2026.">
+<tr data-index="0" data-categories="RXZlbnQ=" data-listing-date-sort="1782403200000" data-listing-title-sort="Attended the [China Society for Industrial and Applied Mathematics (CSIAM) Young Forum](https://www.csiam.org.cn/1005/202606/2773.html), Chengdu, June 26–28, 2026.">
 <td>
 <span class="listing-date">Jun 2026</span>
 </td>
 <td>
-<span class="listing-title">Will attend the <a href="https://www.csiam.org.cn/1005/202606/2773.html">China Society for Industrial and Applied Mathematics (CSIAM) Young Forum</a>, Chengdu, June 26–28, 2026.</span>
+<span class="listing-title">Attended the <a href="https://www.csiam.org.cn/1005/202606/2773.html">China Society for Industrial and Applied Mathematics (CSIAM) Young Forum</a>, Chengdu, June 26–28, 2026.</span>
 </td>
 
 </tr>
@@ -325,7 +325,7 @@ Title
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {
+        if (clz.startsWith('code-annotation-')) {                     
           return true;
         }
       }
@@ -345,11 +345,11 @@ Title
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button,
-          { trigger: "manual",
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();
+        tooltip.show();    
       }
       setTimeout(function() {
         if (tooltip) {
@@ -431,7 +431,7 @@ Title
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config);
+      window.tippy(el, config); 
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -506,7 +506,7 @@ Title
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined;
+        let hash = undefined; 
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -534,7 +534,7 @@ Title
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              }
+              } 
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -558,7 +558,7 @@ Title
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            }
+            } 
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -598,7 +598,7 @@ Title
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it
+              // cook up a div (if necessary) and position it 
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -724,7 +724,7 @@ Title
   <div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
-    </div>
+    </div>   
     <div class="nav-footer-center">
 <p><span class="footer-text">© 2026&nbsp;Hao Zhou · Powered by Quarto</span></p>
 </div>

@@ -152,6 +152,20 @@ h1.title {
   margin: 0;
 }
 
+.material-list {
+  margin-top: 0.15rem;
+}
+
+.material-item {
+  border-bottom: none;
+  line-height: 1.35;
+  padding: 0.12rem 0;
+}
+
+.material-item p {
+  margin: 0.15rem 0;
+}
+
 /* 分类标签标题样式 */
 .quarto-listing-category-title {
   border-bottom: none !important;

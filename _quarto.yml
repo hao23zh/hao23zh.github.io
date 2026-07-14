@@ -7,7 +7,6 @@ project:
     - contact.qmd
     - publications.qmd
     - talks.qmd
-    - materials.qmd
     - 404.qmd
 
 # Meta
@@ -37,8 +36,6 @@ website:
             href: publications.qmd
           - text: Talks
             href: talks.qmd
-          - text: Materials
-            href: materials.qmd
 
     #right: 
     #  - text: CV

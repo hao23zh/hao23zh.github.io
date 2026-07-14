@@ -1,45 +1,10 @@
 [
   {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Hao Zhou's Homepage",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "CSIAM Young Forum, Chengdu, China, Jun/2026.\n\n\n\nInformal talks\n\n\n\nFunctional Analysis of the Curved BGG Sequence, ESI, University of Vienna, Austria, May/2026."
-  },
-  {
-    "objectID": "talks.html#talks",
-    "href": "talks.html#talks",
-    "title": "Hao Zhou's Homepage",
-    "section": "",
-    "text": "CSIAM Young Forum, Chengdu, China, Jun/2026.\n\n\n\nInformal talks\n\n\n\nFunctional Analysis of the Curved BGG Sequence, ESI, University of Vienna, Austria, May/2026."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Address\nSchool of Mathematical Sciences, Peking University\nRoom 308, Building 21\nBeijing 100871, China\nEmail\nzhouhao23[a]pku.edu.cn"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hao Zhou  周 好",
-    "section": "",
-    "text": "I am a PhD student at the School of Mathematical Sciences, Peking University, advised by Prof. Shuonan Wu.\nMy research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds.\n\n\n\n\n\n\n Email (zhouhao23 at pku dot edu dot cn)\n Google Scholar\n Curriculum Vitae"
-  },
-  {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "Hao Zhou  周 好",
-    "section": "",
-    "text": "I am a PhD student at the School of Mathematical Sciences, Peking University, advised by Prof. Shuonan Wu.\nMy research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Hao Zhou  周 好",
-    "section": "Education",
-    "text": "Education\n\nPh.D. in Mathematics, Peking University, 2023 – Present\nB.S. in Mathematics, Peking University, 2019 – 2023"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n2025\n\n\nLocal discontinuous Galerkin method for the integral fractional Laplacian Rubing Han, Shuonan Wu, and Hao Zhou arXiv preprint [DOI]\n\n\n\n\n2025\n\n\nA stabilized nonconforming finite element method for the surface biharmonic problem Shuonan Wu, and Hao Zhou SIAM Journal on Numerical Analysis [DOI]\n\n\n\n\n2023\n\n\nA monotone discretization for the fractional obstacle problem Rubing Han, Shuonan Wu, and Hao Zhou Fractal and Fractional [DOI]\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "news.html",
@@ -49,24 +14,52 @@
     "text": "Date\n\n\n\nTitle\n\n\n\n\n\n\n\n\nJun 2026\n\n\nAttended the China Society for Industrial and Applied Mathematics (CSIAM) Young Forum, Chengdu, June 26–28, 2026.\n\n\n\n\n\n\nJun 2026\n\n\nReceived the Peking University President Scholarship.\n\n\n\n\n\n\nApr 2026\n\n\nAttended the Programme on Differential Complexes at the Erwin Schrödinger International Institute (ESI), University of Vienna, April 20–June 5, 2026.\n\n\n\n\n\n\nJan 2026\n\n\nAttended the Workshop on Finite Element Tensor Calculus at the Tsinghua Sanya International Mathematics Forum (TSIMF), January 12–16, 2026.\n\n\n\n\n\n\nJan 2026\n\n\nAttended the Conference on Structure-Preserving Finite Element Methods at the Institute of Computational Mathematics and Scientific/Engineering Computing (ICMSEC), Chinese Academy of Sciences, Beijing, January 8–10, 2026.\n\n\n\n\n\n\nDec 2025\n\n\nSelected for the CAST Young Science and Technology Talent Cultivation Project.\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hao Zhou  周 好",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n2025\n\n\nLocal discontinuous Galerkin method for the integral fractional Laplacian Rubing Han, Shuonan Wu, and Hao Zhou arXiv preprint [DOI]\n\n\n\n\n2025\n\n\nA stabilized nonconforming finite element method for the surface biharmonic problem Shuonan Wu, and Hao Zhou SIAM Journal on Numerical Analysis [DOI]\n\n\n\n\n2023\n\n\nA monotone discretization for the fractional obstacle problem Rubing Han, Shuonan Wu, and Hao Zhou Fractal and Fractional [DOI]\n\n\n\n\nNo matching items"
+    "text": "I am a PhD student at the School of Mathematical Sciences, Peking University, advised by Prof. Shuonan Wu.\nMy research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric and differential structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds.\n\n\n\n\n\n\n Email (zhouhao23 at pku dot edu dot cn)\n Google Scholar\n Curriculum Vitae"
   },
   {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Hao Zhou's Homepage",
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Hao Zhou  周 好",
     "section": "",
-    "text": "Intrinsic FEM for fourth-order surface PDEs (2026)\nA stabilized nonconforming FEM for the surface biharmonic problem (2025)"
+    "text": "I am a PhD student at the School of Mathematical Sciences, Peking University, advised by Prof. Shuonan Wu.\nMy research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric and differential structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds."
   },
   {
-    "objectID": "materials.html#materials",
-    "href": "materials.html#materials",
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Hao Zhou  周 好",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Mathematics, Peking University, 2023 – Present\nB.S. in Mathematics, Peking University, 2019 – 2023"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Address\nSchool of Mathematical Sciences, Peking University\nRoom 308, Building 21\nBeijing 100871, China\nEmail\nzhouhao23[a]pku.edu.cn"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
     "title": "Hao Zhou's Homepage",
     "section": "",
-    "text": "Intrinsic FEM for fourth-order surface PDEs (2026)\nA stabilized nonconforming FEM for the surface biharmonic problem (2025)"
+    "text": "Intrinsic FEM for fourth-order surface PDEs Slides (2026)\n\n\nA stabilized nonconforming FEM for the surface biharmonic problem Slides (2025)"
+  },
+  {
+    "objectID": "talks.html#materials",
+    "href": "talks.html#materials",
+    "title": "Hao Zhou's Homepage",
+    "section": "",
+    "text": "Intrinsic FEM for fourth-order surface PDEs Slides (2026)\n\n\nA stabilized nonconforming FEM for the surface biharmonic problem Slides (2025)"
+  },
+  {
+    "objectID": "talks.html#talks",
+    "href": "talks.html#talks",
+    "title": "Hao Zhou's Homepage",
+    "section": "Talks",
+    "text": "Talks\n\n\nCSIAM Young Forum, Chengdu, China, Jun/2026.\n\n\n\nInformal talks\n\n\n\nFunctional Analysis of the Curved BGG Sequence, ESI, University of Vienna, Austria, May/2026."
   }
 ]

@@ -11,7 +11,7 @@ toc: false
 
 I am a PhD student at the [School of Mathematical Sciences](http://english.math.pku.edu.cn/), Peking University, advised by [Prof. Shuonan Wu](https://www.math.pku.edu.cn/teachers/snwu/).
 
-My research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds.
+My research focuses on numerical methods for partial differential equations (PDEs). I am particularly interested in numerical schemes related to geometric and differential structures. Currently, my work involves finite element methods (FEM) for problems posed on manifolds.
 
 :::
 

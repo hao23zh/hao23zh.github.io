@@ -1,6 +1,20 @@
 ---
 toc: false
+page-navigation: false
 ---
+## Materials
+
+:::: {.material-list}
+
+::: {.material-item}
+Intrinsic FEM for fourth-order surface PDEs [Slides](publications/talks/CSIAM2026.pdf) (2026)
+:::
+
+::: {.material-item}
+A stabilized nonconforming FEM for the surface biharmonic problem [Slides](publications/talks/sNZT2025.pdf) (2025)
+:::
+
+::::
 
 ## Talks
 

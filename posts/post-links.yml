@@ -21,3 +21,7 @@
 - date: "2026-06-26"
   title: "Attended the [China Society for Industrial and Applied Mathematics (CSIAM) Young Forum](https://www.csiam.org.cn/1005/202606/2773.html), Chengdu, June 26–28, 2026."
   categories: [Event]
+
+- date: "2026-07-29"
+  title: "Posted the preprint [Stabilized Morley FEM for surface Stokes in stream-function formulation: Optimal convergence via a new geometric estimate](https://arxiv.org/abs/2607.26664) on arXiv."
+  categories: [Publication]

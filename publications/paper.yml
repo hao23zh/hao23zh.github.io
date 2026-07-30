@@ -2,7 +2,7 @@
   author: "Shuonan Wu, and Hao Zhou"
   date: "2025-01"
   journal: "SIAM Journal on Numerical Analysis"
-  categories: [Geometric PDEs]
+  categories: [Surface PDEs]
   doi: "https://doi.org/10.1137/24M1707936"
 
 - title: "A monotone discretization for the fractional obstacle problem"
@@ -18,3 +18,10 @@
   journal: "arXiv preprint"
   categories: [Fractional PDEs]
   doi: "https://doi.org/10.48550/arXiv.2512.12200"
+
+- title: "Stabilized Morley FEM for surface Stokes in stream-function formulation: Optimal convergence via a new geometric estimate"
+  author: "Shuonan Wu, and Hao Zhou"
+  date: "2026-07"
+  journal: "arXiv preprint"
+  categories: [Surface PDEs]
+  doi: "https://doi.org/10.48550/arXiv.2607.26664"

@@ -20,7 +20,7 @@ A stabilized nonconforming FEM for the surface biharmonic problem [Slides](publi
 
 :::: {.talk-numbering}
 
-1. CAST Young Scientists Leadership Program, Beijing, China, Aug/2026.
+1. CAST Young Scientists Leadership Program, Beijing, China, Aug/2026. [Introductory slides (in Chinese)](publications/talks/CAST2026.pdf)
 2. Beijing–Tianjin–Hebei+ Conference on Computational Mathematics, Harbin, China, Aug/2026.
 3. CSIAM Young Forum, Chengdu, China, Jun/2026.
 

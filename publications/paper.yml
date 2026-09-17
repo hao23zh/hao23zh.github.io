@@ -25,3 +25,10 @@
   journal: "arXiv preprint"
   categories: [Surface PDEs]
   doi: "https://doi.org/10.48550/arXiv.2607.26664"
+
+- title: "A mixed finite element method for the Babu&scaron;ka paradox using only discrete geometry"
+  author: "Pengjie Tian, Shuonan Wu, and Hao Zhou"
+  date: "2026-09"
+  journal: "arXiv preprint"
+  categories: [Babuska Paradox]
+  doi: "https://doi.org/10.48550/arXiv.2609.18537"

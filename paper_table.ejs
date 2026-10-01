@@ -8,7 +8,7 @@
         <strong><%= item.title %></strong>
         <span class="listing-author"><%= item.author %></span>
         <span class="journal-name"><em><%= item.journal %></em></span>
-        <% if (item.arxiv) { %><a href="<%- item.arxiv %>" class="doi-link">[arXiv]</a><% } else if (item.doi) { %><a href="<%- item.doi %>" class="doi-link">[DOI]</a><% } %>
+        <% if (item.doi) { %><a href="<%- item.doi %>" class="doi-link">[DOI]</a><% } %>
       </td>
     </tr>
     <% } %>
